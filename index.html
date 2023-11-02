@@ -463,6 +463,18 @@
 
         <div class="skills__container container grid">
           <div class="skills__tab">
+            <div
+              class="skills__header skills__active"
+              data-target="#decentralize"
+            >
+              <i class="uil uil-brackets-curly skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Web3 Developer</h1>
+                <span class="skills__subtitle">Less than 1 year</span>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+
             <div class="skills__header skills__active" data-target="#frontend">
               <i class="uil uil-brackets-curly skills__icon"></i>
               <div>
@@ -492,6 +504,26 @@
           </div>
 
           <div class="skills__content">
+            <!-- Decentralize Menu -->
+            <div
+              class="skills__group skills__active"
+              data-content
+              id="decentralize"
+            >
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills_name">Solidity</h3>
+                    <span class="skills__number">30%</span>
+                  </div>
+
+                  <div class="skills__bar">
+                    <span class="skills__percentage" style="width: 30%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <!-- Frontend Menu -->
             <div
               class="skills__group skills__active"
@@ -689,9 +721,49 @@
           <span class="work__item" data-filter=".react"> Reactjs App </span>
           <span class="work__item" data-filter=".next"> Nextjs App </span>
           <span class="work__item" data-filter=".java"> Java App </span>
+          <span class="work__item" data-filter=".web3"> Web3 App </span>
         </div>
 
         <div class="work__container container grid">
+          <div class="work__card mix web3">
+            <img
+              src="https://res.cloudinary.com/greater-heights-computer/image/upload/v1698951564/decentralize_portfolio_jv0ukc.png"
+              alt="decentralize portfolio"
+              class="work__img"
+            />
+            <h3 class="work__title">Decentralize Portfolio (Solidity)</h3>
+            <span class="work__button">
+              Demo
+              <i class="uil uil-arrow-right work__button-icon"></i>
+            </span>
+            <div class="portfolio__item-details">
+              <h3 class="details__title">Portfolio Dapp</h3>
+              <p class="details__description">
+                Decentralize Portfolio Dapp using Solidity
+              </p>
+              <ul class="details__info">
+                <li>Created - <span>02 November 2023</span></li>
+                <li>
+                  Technologies -
+                  <span>
+                    jsx, css, reactjs, solidity, pinata cloud, sepolia ethereum
+                    chain
+                  </span>
+                </li>
+                <li>Role - <span>developer</span></li>
+                <li>
+                  View -
+                  <a
+                    href="https://decentralize-portfolio.netlify.app/"
+                    target="_blank"
+                  >
+                    https://decentralize-portfolio.netlify.app/
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
           <div class="work__card mix react">
             <img
               src="https://res.cloudinary.com/greater-heights-computer/image/upload/v1692210806/myportfolioImages/Senior-School-Result_umsirz.png"
@@ -1741,10 +1813,11 @@ then past it inside assests/js folder
 
   
   - Redeployment to Github
-  * C:\ComputerD\nextjs_isale_eko18072023> git init
   * C:\ComputerD\myportfolio162022> git status
   * C:\ComputerD\nextjs_isale_eko18072023> git add .
   * C:\ComputerD\nextjs_isale_eko18072023> git commit -m "add project"
+  * C:\ComputerD\myportfolio162022> git push 
+  
   * git push --set-upstream https://github.com/greaterheightscomputer/myportfolio.git master
 
   C:\ComputerD\myportfolio162022> rm ~/.gitconfig    -> to remove the github configuration setting
