@@ -323,7 +323,7 @@ input {
 }
 
 .home__description {
-  max-width: 450px;
+  max-width: 600px;
   margin-right: 15rem;
   margin-bottom: var(--mb-0-75);
 }
